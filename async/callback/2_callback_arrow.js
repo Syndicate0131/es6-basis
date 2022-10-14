@@ -1,3 +1,4 @@
+// 1. Creamos el objeto Request 
 let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 let endpoint = 'https://pokeapi.co/api/v2/type';
@@ -8,7 +9,6 @@ const exito =(response)=>{
         console.log(`Tipo: ${tipo.name}`);
         console.log(`---------------------`);
     });
-    // console.log(JSON.parse(response).results);
 }
 
 const fallo = (status) =>{

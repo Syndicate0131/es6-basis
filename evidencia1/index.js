@@ -1,4 +1,4 @@
-import { materias } from "./materias.js";
+import { materias } from "./EjEvidencia1/materias.js.js";
 import pkg from 'colors'
 
 // Metodos de los objetos arreglos
